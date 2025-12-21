@@ -5,11 +5,8 @@ import {auth} from "../../firebase"
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-   const provider = new GoogleAuthProvider();
+  const provider = new GoogleAuthProvider();
   const [user, setUser] = useState(null);
-
-  const email = 'efoosagtech@gmail.com';
-  const password = 'EFosabiZ08!!';
 
   const login = async () => {
      await signInWithEmailAndPassword(auth, email, password);
