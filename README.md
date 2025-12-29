@@ -31,7 +31,7 @@ To get a local copy up and running, follow these simple steps.
 
 # Live Demo
 
-🔗 Live App: (Add your deployed link here)
+🔗 Live App: https://google-books-app-mu.vercel.app/
 🔗 Repository: https://github.com/efoosag/google-books-app
  (example)
 
